@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Beauty | Premium Salon Experience</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="offer-banner">
+        ✨ First Visit? Enjoy 20% off your premium service. Use code: LUXE20 ✨
+    </div>
+
+    <header>
+        <a href="#" class="logo">LUXE.</a>
+        <i class="fa-solid fa-bars menu-toggle"></i>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+        <a href="#booking" class="btn btn-primary" id="header-btn">Book Now</a>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="reveal active">
+            <h1>Luxury Hair & Skin Care Experience</h1>
+            <p>Redefining elegance with world-class treatments, tailored exclusively for the modern woman.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                <a href="#services" class="btn btn-outline">View Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-badges reveal">
+        <div class="badge">
+            <i class="fa-solid fa-star"></i>
+            <h4>4.8/5 Rating</h4>
+            <p>On Google & Yelp</p>
+        </div>
+        <div class="badge">
+            <i class="fa-solid fa-users"></i>
+            <h4>500+ Happy Clients</h4>
+            <p>Trusted by urban women</p>
+        </div>
+        <div class="badge">
+            <i class="fa-solid fa-award"></i>
+            <h4>Certified Stylists</h4>
+            <p>Internationally trained</p>
+        </div>
+        <div class="badge">
+            <i class="fa-solid fa-leaf"></i>
+            <h4>Premium Products</h4>
+            <p>100% Vegan & Cruelty-Free</p>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding reveal">
+        <h2 class="section-title">Our Premium Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Signature Haircut & Styling</h3>
+                <p>Personalized consultation, precision cut, and a flawless blowout finish.</p>
+                <div class="service-price">Starts at ₹2,500</div>
+                <a href="#booking" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.8rem;">Book Now</a>
+            </div>
+            <div class="service-card">
+                <h3>Advanced Glass Skin Facial</h3>
+                <p>Korean-inspired deep hydration therapy for an illuminating, flawless glow.</p>
+                <div class="service-price">Starts at ₹4,000</div>
+                <a href="#booking" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.8rem;">Book Now</a>
+            </div>
+            <div class="service-card">
+                <h3>Keratin Smoothing Therapy</h3>
+                <p>Frizz-free, intensely nourished hair using premium, formaldehyde-free formulas.</p>
+                <div class="service-price">Starts at ₹6,500</div>
+                <a href="#booking" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.8rem;">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding reveal">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left;">The Luxe Philosophy</h2>
+                <h3>Where Science Meets Artistry.</h3>
+                <p>Founded in 2018, LUXE was created with a singular vision: to provide a sanctuary where urban women can escape the rush and indulge in world-class beauty treatments.</p>
+                <br>
+                <p>Our internationally certified stylists and aestheticians use only premium, cruelty-free products to ensure your hair and skin receive the elite care they deserve. We don't just change how you look; we elevate how you feel.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Salon Interior">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding reveal" style="background-color: var(--white);">
+        <h2 class="section-title">Our Masterpieces</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Hair Styling"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1516975080661-46b048590f05?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Skin Care"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Makeup"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1521590832167-7bfc17484d20?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Nails"></div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding reveal">
+        <h2 class="section-title">Client Love</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"Absolutely incredible experience. The glass skin facial completely transformed my complexion. The salon itself feels like a 5-star hotel spa. Highly recommend!"</p>
+                <div class="client-name">Sarah Jenkins</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"I've been trusting LUXE with my hair for two years now. The keratin treatment is life-changing. Clean, elegant, and the staff is incredibly professional."</p>
+                <div class="client-name">Priya Desai</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                <p>"The best blowout in the city, hands down. I always feel so pampered here. The complimentary champagne during my appointment was a lovely touch!"</p>
+                <div class="client-name">Emily R.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="section-padding booking-section reveal">
+        <h2 class="section-title">Reserve Your Time</h2>
+        <form class="booking-form" onsubmit="event.preventDefault(); alert('Thank you! Your booking request has been received.');">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="" disabled selected>Select a Service</option>
+                    <option value="haircut">Signature Haircut & Styling</option>
+                    <option value="facial">Advanced Glass Skin Facial</option>
+                    <option value="keratin">Keratin Smoothing Therapy</option>
+                    <option value="other">Other / Consultation</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="date" required>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">Confirm Appointment Request</button>
+        </form>
+    </section>
+
+    <a href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment!" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <h2 style="font-family: var(--font-heading); color: var(--black); margin-bottom: 15px;">LUXE.</h2>
+        <p>123 Luxury Avenue, Urban District, 10001</p>
+        <p style="margin-top: 10px;">&copy; 2026 Luxe Beauty Salon. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
